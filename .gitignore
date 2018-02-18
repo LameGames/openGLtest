@@ -260,7 +260,8 @@ paket-files/
 __pycache__/
 *.pyc
 
-#Files/folders I wish to ignore
-.vs
-.gitattributes
-.gitignore
+/.vs/**
+!/Dependencies/**/*.lib
+!/Dependencies/**/Release
+!/Dependencies/**/x86
+!/Dependencies/**/x64
