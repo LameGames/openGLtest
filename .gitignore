@@ -260,7 +260,6 @@ paket-files/
 __pycache__/
 *.pyc
 
-/.vs/**
 !/Dependencies/**/*.lib
 !/Dependencies/**/Release
 !/Dependencies/**/x86

@@ -100,7 +100,7 @@ int main(void)
 	glfwWindowHint(GLFW_SAMPLES, 4); // 4x antialiasing
 	GLFWwindow* window;
 	/* Create a windowed mode window and its OpenGL context */
-	window = glfwCreateWindow(1280, 720, "OpenGLtest", NULL, NULL);
+	window = glfwCreateWindow(640, 480, "OpenGLtest", NULL, NULL);
 	if (!window)
 	{
 		glfwTerminate();
